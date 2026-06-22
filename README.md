@@ -19,3 +19,11 @@ npm install ph-philhealth
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'ph-philhealth';
+// See API section for available functions
+```
