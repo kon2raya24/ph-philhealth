@@ -1,6 +1,10 @@
 
 // Type exports for consumers
 // Add specific types as needed
+/**
+ * formatPhilHealth
+ * @param num
+ */
 export function formatPhilHealth(num: string): string {
   const cleaned = num.replace(/[^0-9]/g, "");
   if (cleaned.length !== 12) throw new Error("PhilHealth must be 12 digits");
